@@ -1,6 +1,7 @@
 # Hate Speech Detection using NLP
 
-A machine learning project that applies Natural Language Processing (NLP) techniques to identify and classify hate speech in text data. The pipeline handles extensive text preprocessing, feature extraction, and model evaluation using multiple classifiers.
+A machine learning project that applies Natural Language Processing (NLP) techniques to identify and classify hate speech in text data. The pipeline handles extensive text preprocessing, feature extraction, and model evaluation using multiple classifiers. Achieved a peak validation accuracy of 77.08\% in classifying hate speech across $\sim$8,000 text samples by developing an NLP pipeline in Python. Optimized performance by comparing Logistic Regression, Naive Bayes, and SVM models using NLTK for lemmatization and Scikit-learn for TF-IDF feature extraction. 
+Goal wasn't highest accuracy, but learning all at basic first.
 
 ## ✨ Features
 * **Exploratory Data Analysis (EDA):** Calculates and visualizes the distribution of hate speech (HS=1) vs. non-hate speech (HS=0) classes.
