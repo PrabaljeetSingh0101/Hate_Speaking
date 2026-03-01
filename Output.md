@@ -1,4 +1,4 @@
-# Project Results & Output Analysis
+<img width="1200" height="750" alt="class_distribution" src="https://github.com/user-attachments/assets/d1dbb038-19c8-4281-b632-efb71f88c350" /># Project Results & Output Analysis
 
 This document breaks down the terminal output, data exploration, and model evaluation metrics for the Hate Speech Detection pipeline.
 
@@ -276,4 +276,5 @@ Predicted distribution:
 ======================================================================
 ALL TASKS COMPLETED SUCCESSFULLY!
 ======================================================================
+<img width="1200" height="750" alt="class_distribution" src="https://github.com/user-attachments/assets/c03b64bd-313a-4e74-bc85-c3028d367167" />
 
