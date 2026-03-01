@@ -1,4 +1,4 @@
-<img width="1200" height="750" alt="class_distribution" src="https://github.com/user-attachments/assets/d1dbb038-19c8-4281-b632-efb71f88c350" /># Project Results & Output Analysis
+# Project Results & Output Analysis
 
 This document breaks down the terminal output, data exploration, and model evaluation metrics for the Hate Speech Detection pipeline.
 
@@ -8,7 +8,7 @@ During the Exploratory Data Analysis (EDA) phase, we identified the following di
 * **HS = 0 (Not Hate Speech):** 3,455 samples (57.6%)
 * **HS = 1 (Hate Speech):** 2,544 samples (42.4%)
 
-![Class Distribution](class_distribution.png)
+<img width="1200" height="750" alt="class_distribution" src="https://github.com/user-attachments/assets/c03b64bd-313a-4e74-bc85-c3028d367167" />
 
 ## ⚙️ 2. Text Preprocessing 
 We utilized NLTK to clean the text. We specifically chose **Lemmatization over Stemming** because it produces valid dictionary words and preserves semantic meaning, which is crucial for a classifier learning hate speech patterns.
@@ -39,9 +39,10 @@ This final model was used to generate predictions for the 2,000 unlabelled test 
 * **Predicted HS = 1 (Hate Speech):** 698 (34.9%)
 
 ---
-Full output below
+## Full Terminal Output
 ---
 
+```console
 (hate_venv) [prabal@myarch hate_speaking]$ python hate_speech_detection.py 
 ======================================================================
 TASK 1: Data Loading and Exploration
@@ -276,5 +277,5 @@ Predicted distribution:
 ======================================================================
 ALL TASKS COMPLETED SUCCESSFULLY!
 ======================================================================
-<img width="1200" height="750" alt="class_distribution" src="https://github.com/user-attachments/assets/c03b64bd-313a-4e74-bc85-c3028d367167" />
 
+```
