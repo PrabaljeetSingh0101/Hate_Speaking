@@ -1,4 +1,3 @@
-```markdown
 # Hate Speech Detection using NLP
 
 A machine learning project that applies Natural Language Processing (NLP) techniques to identify and classify hate speech in text data. The pipeline handles extensive text preprocessing, feature extraction, and model evaluation using multiple classifiers.
