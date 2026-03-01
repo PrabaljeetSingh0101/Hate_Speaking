@@ -10,7 +10,6 @@ Goal wasn't highest accuracy, but learning all at basic first.
 * **Model Training & Comparison:** Trains and evaluates Logistic Regression, Naive Bayes, and Linear SVM models to find the most accurate classifier.
 
 ## 🛠️ Tech Stack
-* **Python 3.x**
 * **Pandas & NumPy:** For data loading and manipulation.
 * **NLTK:** For natural language processing tasks (punkt, stopwords, wordnet).
 * **Scikit-learn:** For vectorization (CountVectorizer, TfidfVectorizer) and machine learning algorithms.
@@ -26,7 +25,7 @@ Goal wasn't highest accuracy, but learning all at basic first.
    ```bash
    pip install pandas numpy scikit-learn nltk matplotlib
 
-```
+
 
 2. Place the `train_data.csv` and `test.csv` files in your working directory and update the script's file paths.
 3. Run the script to execute the full pipeline:
@@ -34,7 +33,3 @@ Goal wasn't highest accuracy, but learning all at basic first.
 python hate_speech_detection.py
 
 ```
-
-
-
-
